@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initialscale=1.0, maximum-scale=3.0, minimum-scale=0.5">
+    <title>Na_Divane</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="nav">
+        <p class="nav-text text">Інтернет магазин<br>спортивного харчування</p>
+    </nav>
+    <div class="left-background back">
+        <img src="left.jpg" alt="" class="left-img">
+    </div>
+
+    <div class="right-background back"></div>
+
+    <div class="section">
+        <div class="btns">
+            <button class="btn text" onclick="add_nodes('proteine')">Protein</button>
+            <button class="btn text" onclick="add_nodes('magnesium')">Magnesium</button>
+            <button class="btn text" onclick="add_nodes('')">All</button>
+        </div>
+
+        <div class="container" id="container">
+            <!-- there would be all nodes -->
+        </div>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-cont">
+            <span id="close" class="close text">x</span>
+            <p class="text">Мені не заплатили за цей сайт, поставте Будь Ласка максимум</p>
+            <p class="timer text" id="timer"></p>
+        </div>
+    </div>
+
+    <div id="subcribe" class="modal">
+        <div class="subcribe-cont">
+            <span id="sub-span" class="sub-span">Підписатися</span>
+            <span id="reject-span" class="reject-span">Відхилити</span>
+            <span id="close-sub" class="close-sub">x</span>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
