@@ -46,8 +46,6 @@ body {
 .right-background {
     float: right;
     background-image: url("./right.jpg");
-    /* vh - висота монітора */
-    /* vw -  */
 }
 
 .left-img {
