@@ -36,7 +36,7 @@ function add_nodes() {
         for (let index = 0; index < nodes.length; index++) {
             const element = nodes[index];
             str += `<div class="node"><img src="${element.source}" alt="${element.alt}" class="img">
-            <span class="node-text text">${element.description} ${element.price} UAH</span>
+            <span class="node-text text">${element.description} ${element.price} BUCKS</span>
             </div>`;
         }
     }
