@@ -60,7 +60,6 @@ body {
     align-content: center;
     justify-content: center;
     grid-template-columns: repeat(2, 200px);
-
 }
 
 .node {
@@ -163,6 +162,7 @@ body {
 .reject-span:hover {
     cursor: pointer;
 }
+
 .btns {
     display: flex;
     flex-direction: row;
@@ -194,4 +194,33 @@ body {
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
+}
+
+@media (max-width: 400px) {
+    .back {
+        display: none;
+    }
+
+    .nav {
+        height: auto;
+    }
+
+    .nav-text {
+        margin: 5px;
+    }
+
+    .btn {
+        width: auto;
+        margin: 3px;
+    }
+
+    .node {
+        width: 50vw;
+    }
+
+    .container {
+        width: 100vw;
+        grid-template-columns: repeat(1, 100vw);
+        justify-items: center;
+    }
 }
