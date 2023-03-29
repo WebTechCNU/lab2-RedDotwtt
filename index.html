@@ -24,14 +24,22 @@
 
     <div class="right-background back"></div>
 
-    <div class="container" id="container">
-        <!-- there would be all nodes -->
+    <div class="section">
+        <div class="btns">
+            <button class="btn text" onclick="add_nodes('proteine')">Protein</button>
+            <button class="btn text" onclick="add_nodes('magnesium')">Magnesium</button>
+            <button class="btn text" onclick="add_nodes('')">All</button>
+        </div>
+
+        <div class="container" id="container">
+            <!-- there would be all nodes -->
+        </div>
     </div>
 
     <div id="modal" class="modal">
         <div class="modal-cont">
             <span id="close" class="close text">x</span>
-            <p class="text">Мені не заплатили за цей сайт, поставте Будь Ласка максимум</p> 
+            <p class="text">Мені не заплатили за цей сайт, поставте Будь Ласка максимум</p>
             <p class="timer text" id="timer"></p>
         </div>
     </div>
